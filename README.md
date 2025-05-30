@@ -13,12 +13,6 @@ A simple and clean web app that lets users track stock prices and view short-ter
 
 ---
 
-## 🖼️ Preview
-
-![screenshot](preview.png) <!-- Add a screenshot if desired -->
-
----
-
 ## 🚀 Technologies Used
 
 - HTML5
@@ -26,13 +20,3 @@ A simple and clean web app that lets users track stock prices and view short-ter
 - JavaScript (ES6)
 - [Chart.js](https://www.chartjs.org/)
 - [Alpha Vantage API](https://www.alphavantage.co/)
-
----
-
-## 📦 How to Use
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/your-username/stock-watchlist.git
-cd stock-watchlist
