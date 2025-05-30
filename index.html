@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stock Watchlist</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <h1>Stock Watchlist</h1>
+
+  <label for="dropdown">Choose a stock:</label>
+  <select id="dropdown">
+    <option value="AAPL">Apple (AAPL)</option>
+    <option value="NVDA">NVIDIA (NVDA)</option>
+    <option value="MSFT">Microsoft (MSFT)</option>
+    <option value="GOOGL">Alphabet (GOOGL)</option>
+    <option value="AMZN">Amazon (AMZN)</option>
+    <option value="TSLA">Tesla (TSLA)</option>
+    <option value="META">Meta (META)</option>
+    <option value="AVGO">Broadcom (AVGO)</option>
+    <option value="AMD">AMD (AMD)</option>
+    <option value="NFLX">Netflix (NFLX)</option>
+  </select>
+  <button onclick="getStock()">Get Data</button>
+
+  <ul id="watchlist"></ul>
+
+  <div id="chart-container">
+    <canvas id="stockChart"></canvas>
+  </div>
+</body>
+</html>

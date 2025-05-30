@@ -1,0 +1,86 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+      max-width: 480px;
+      margin: 3rem auto;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+      border-radius: 8px;
+    }
+
+    /* Heading */
+    h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #111827;
+      text-align: center;
+    }
+
+    /* Inputs & Select */
+    input,
+    select {
+      display: block;
+      width: 100%;
+      padding: 0.6rem 1rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      border: 1.5px solid #d1d5db;
+      border-radius: 6px;
+      background-color: #fff;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus,
+    select:focus {
+      border-color: #2563eb;
+      outline: none;
+    }
+
+    /* Button */
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #2563eb;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    /* Output list */
+    #watchlist {
+      margin-top: 1rem;
+      list-style: none;
+    }
+
+    #watchlist li {
+      background-color: #f3f4f6;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #374151;
+      box-shadow: inset 0 1px 3px rgb(0 0 0 / 0.1);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Chart Container */
+    #chart-container {
+      margin-top: 2rem;
+    }
