@@ -1,6 +1,12 @@
 # 📈 Stock Watchlist Web App
 
-A simple and clean web app that lets users track stock prices and view short-term trends using live market data. Built with HTML, CSS, and JavaScript — styled with a modern UI and powered by the Alpha Vantage API.
+A simple and clean web app that lets users track stock prices and view short-term trends using live market data. The chart shows the closing price of the stock.
+
+---
+
+## What Is the Closing Price?
+
+The closing price is the raw price/cash value of the last transacted price in a security before the market officially closes for normal trading. Often as a reference point used by investors to compare a stock's performance since the previous day—and closing prices are frequently used to construct line graphs depicting historical price changes over time. 
 
 ---
 
