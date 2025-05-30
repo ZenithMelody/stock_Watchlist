@@ -15,8 +15,8 @@ A simple and clean web app that lets users track stock prices and view short-ter
 
 ## 🚀 Technologies Used
 
-- HTML5
-- Vanilla CSS (custom modern style)
-- JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript
 - [Chart.js](https://www.chartjs.org/)
 - [Alpha Vantage API](https://www.alphavantage.co/)
